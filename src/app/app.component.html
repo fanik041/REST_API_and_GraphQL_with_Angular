@@ -1,0 +1,19 @@
+This is a template for app component html
+<br>
+<button type="button" (click)="loadData()" class="btn btn-primary">Get Response Body</button>
+
+<br>
+<div *ngFor="let field of fields">
+  <h1>{{ field?.title }}</h1>
+  <p> {{ field?.description }} </p>
+  <p> {{ field?.entryTitle }} </p>
+  <p> {{ field?.isNoIndex }} </p>
+</div>
+
+<div *ngFor="let url of urls">
+  <!-- <h1>{{ url?.url }}</h1> -->
+  <p> {{ url?.url }} </p>
+  <!-- <p> {{ field?.entryTitle }} </p> -->
+  <!-- <p> {{ field?.isNoIndex }} </p> -->
+</div>
+<router-outlet></router-outlet>

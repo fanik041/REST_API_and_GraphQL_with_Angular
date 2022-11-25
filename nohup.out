@@ -1,0 +1,1825 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.12 MB |
+polyfills.js          | polyfills     | 314.27 kB |
+styles.css, styles.js | styles        | 209.40 kB |
+runtime.js            | runtime       |   6.52 kB |
+main.js               | main          |   6.09 kB |
+
+| Initial Total |   2.64 MB
+
+Build at: 2022-11-21T00:47:18.624Z - Hash: 1aa1cb8f15d79d22 - Time: 7603ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  2.21 MB |
+runtime.js          | runtime |  6.52 kB |
+main.js             | main    |  6.36 kB |
+
+2 unchanged chunks
+
+Build at: 2022-11-21T00:51:01.857Z - Hash: ab34c9f427ea6217 - Time: 850ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  6.94 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T00:59:11.446Z - Hash: c540dd1cfaaf4e3a - Time: 508ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  6.95 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:01:25.881Z - Hash: 4374c26f0f962360 - Time: 172ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.43 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:06:01.508Z - Hash: 39578b7759debf6a - Time: 185ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.51 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:06:15.789Z - Hash: e2e3b26b6d355c7c - Time: 158ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.49 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:06:44.887Z - Hash: 18ba5311fd86f39f - Time: 334ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.51 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:07:29.075Z - Hash: 2da64274de69f95a - Time: 223ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.52 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:07:50.833Z - Hash: d110888c88d7517f - Time: 130ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.61 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:09:15.305Z - Hash: 16f684a12b6257f3 - Time: 302ms
+
+Error: src/app/app.component.html:7:15 - error TS2339: Property 'title' does not exist on type 'never[]'.
+
+7   <h1>{{posts.title}}</h1>
+                ~~~~~
+
+  src/app/app.component.ts:6:16
+    6   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.61 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:10:37.910Z - Hash: 3e1b4be2df979146 - Time: 198ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.61 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:10:46.316Z - Hash: de9d895d61e6d72e - Time: 166ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.59 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:12:55.090Z - Hash: d1d85c94a6288a33 - Time: 281ms
+
+Error: src/app/app.component.ts:22:16 - error TS2769: No overload matches this call.
+  Overload 1 of 3, '(observer?: Partial<Observer<Object>> | undefined): Subscription', gave the following error.
+    Type '(posts: any[]) => void' has no properties in common with type 'Partial<Observer<Object>>'.
+  Overload 2 of 3, '(next: (value: Object) => void): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+          Type 'Object' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+  Overload 3 of 3, '(next?: ((value: Object) => void) | null | undefined, error?: ((error: any) => void) | null | undefined, complete?: (() => void) | null | undefined): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        Type 'Object' is not assignable to type 'any[]'.
+          The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+
+22     .subscribe((posts: any[])=>{
+                  ~~~~~~~~~~~~~~~~~
+
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.60 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:13:40.986Z - Hash: 175647dd58946830 - Time: 152ms
+
+Error: src/app/app.component.html:7:16 - error TS2339: Property 'title' does not exist on type 'any[]'.
+
+7   <h1>{{ posts.title }}</h1>
+                 ~~~~~
+
+  src/app/app.component.ts:6:16
+    6   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.ts:22:16 - error TS2769: No overload matches this call.
+  Overload 1 of 3, '(observer?: Partial<Observer<Object>> | undefined): Subscription', gave the following error.
+    Type '(posts: any[]) => void' has no properties in common with type 'Partial<Observer<Object>>'.
+  Overload 2 of 3, '(next: (value: Object) => void): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+          Type 'Object' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+  Overload 3 of 3, '(next?: ((value: Object) => void) | null | undefined, error?: ((error: any) => void) | null | undefined, complete?: (() => void) | null | undefined): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        Type 'Object' is not assignable to type 'any[]'.
+          The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+
+22     .subscribe((posts: any[])=>{
+                  ~~~~~~~~~~~~~~~~~
+
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.60 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:13:43.390Z - Hash: 61aa3881a99f2964 - Time: 190ms
+
+Error: src/app/app.component.html:7:16 - error TS2339: Property 'title' does not exist on type 'any[]'.
+
+7   <h1>{{ posts.title }}</h1>
+                 ~~~~~
+
+  src/app/app.component.ts:6:16
+    6   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.ts:22:16 - error TS2769: No overload matches this call.
+  Overload 1 of 3, '(observer?: Partial<Observer<Object>> | undefined): Subscription', gave the following error.
+    Type '(posts: any[]) => void' has no properties in common with type 'Partial<Observer<Object>>'.
+  Overload 2 of 3, '(next: (value: Object) => void): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+          Type 'Object' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+  Overload 3 of 3, '(next?: ((value: Object) => void) | null | undefined, error?: ((error: any) => void) | null | undefined, complete?: (() => void) | null | undefined): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        Type 'Object' is not assignable to type 'any[]'.
+          The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+
+22     .subscribe((posts: any[])=>{
+                  ~~~~~~~~~~~~~~~~~
+
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.60 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:14:21.076Z - Hash: f56334accf05bdf0 - Time: 157ms
+
+Error: src/app/app.component.html:7:16 - error TS2339: Property 'title' does not exist on type 'any[]'.
+
+7   <h1>{{ posts.title }}</h1>
+                 ~~~~~
+
+  src/app/app.component.ts:6:16
+    6   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.60 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:14:25.290Z - Hash: 3d4d9a1602e80bec - Time: 131ms
+
+Error: src/app/app.component.html:7:16 - error TS2339: Property 'title' does not exist on type 'any[]'.
+
+7   <h1>{{ posts.title }}</h1>
+                 ~~~~~
+
+  src/app/app.component.ts:6:16
+    6   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.59 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:14:38.150Z - Hash: e34fc241bf0250fb - Time: 171ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.60 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:15:03.246Z - Hash: ceb6875ebcde3404 - Time: 197ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.60 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:15:56.277Z - Hash: e46f52acad57b4a6 - Time: 176ms
+
+Error: src/app/app.component.html:7:16 - error TS2339: Property 'fields' does not exist on type 'any[]'.
+
+7   <h1>{{ posts.fields }}</h1>
+                 ~~~~~~
+
+  src/app/app.component.ts:6:16
+    6   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.60 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:23:33.021Z - Hash: daa129b4c8bbbd74 - Time: 241ms
+
+Error: src/app/app.component.html:7:16 - error TS2339: Property 'fields' does not exist on type 'any[]'.
+
+7   <h1>{{ posts.fields }}</h1>
+                 ~~~~~~
+
+  src/app/app.component.ts:6:16
+    6   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.51 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:23:34.878Z - Hash: 5027a6f28f3c0e35 - Time: 224ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.54 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T01:25:38.417Z - Hash: 555f966805d91382 - Time: 167ms
+
+✔ Compiled successfully.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.21 MB |
+polyfills.js          | polyfills     | 314.27 kB |
+styles.css, styles.js | styles        | 209.40 kB |
+main.js               | main          |   9.04 kB |
+runtime.js            | runtime       |   6.52 kB |
+
+| Initial Total |   2.74 MB
+
+Build at: 2022-11-21T13:05:18.733Z - Hash: dbbf24df33c72b50 - Time: 3724ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.03 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T13:07:17.610Z - Hash: bbf7ffa06a3f977b - Time: 405ms
+
+Error: src/app/app.component.ts:26:16 - error TS2769: No overload matches this call.
+  Overload 1 of 3, '(observer?: Partial<Observer<Object>> | undefined): Subscription', gave the following error.
+    Type '(posts: any[]) => void' has no properties in common with type 'Partial<Observer<Object>>'.
+  Overload 2 of 3, '(next: (value: Object) => void): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+          Type 'Object' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+  Overload 3 of 3, '(next?: ((value: Object) => void) | null | undefined, error?: ((error: any) => void) | null | undefined, complete?: (() => void) | null | undefined): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        Type 'Object' is not assignable to type 'any[]'.
+          The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+
+26     .subscribe((posts: any[])=>{
+                  ~~~~~~~~~~~~~~~~~
+
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.23 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T13:16:16.460Z - Hash: d833bc014b1700c1 - Time: 363ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.00 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T16:48:39.784Z - Hash: 581e5fe3074c07cd - Time: 469ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.00 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T16:49:18.117Z - Hash: 2917f1e619314fef - Time: 165ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.04 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T16:56:04.684Z - Hash: bec4957267bc737c - Time: 240ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.02 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T16:59:48.776Z - Hash: b86d5cd36032381d - Time: 216ms
+
+Error: src/app/app.component.ts:19:16 - error TS2769: No overload matches this call.
+  Overload 1 of 3, '(observer?: Partial<Observer<Object>> | undefined): Subscription', gave the following error.
+    Type '(posts: any[]) => void' has no properties in common with type 'Partial<Observer<Object>>'.
+  Overload 2 of 3, '(next: (value: Object) => void): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+          Type 'Object' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+  Overload 3 of 3, '(next?: ((value: Object) => void) | null | undefined, error?: ((error: any) => void) | null | undefined, complete?: (() => void) | null | undefined): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        Type 'Object' is not assignable to type 'any[]'.
+          The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+
+19     .subscribe((posts: any[])=>{
+                  ~~~~~~~~~~~~~~~~~
+
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.02 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:09:37.223Z - Hash: d80b8bc7bc9d9a94 - Time: 196ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.02 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:16:01.813Z - Hash: 79b2c42fadd18665 - Time: 214ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.02 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:24:49.637Z - Hash: a9621f9e885fd0c0 - Time: 285ms
+
+Error: src/app/app.component.ts:19:16 - error TS2769: No overload matches this call.
+  Overload 1 of 3, '(observer?: Partial<Observer<Object>> | undefined): Subscription', gave the following error.
+    Type '(posts: any[]) => void' has no properties in common with type 'Partial<Observer<Object>>'.
+  Overload 2 of 3, '(next: (value: Object) => void): Subscription', gave the following error.
+    Argument of type '(posts: Array<any>) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+          Type 'Object' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+  Overload 3 of 3, '(next?: ((value: Object) => void) | null | undefined, error?: ((error: any) => void) | null | undefined, complete?: (() => void) | null | undefined): Subscription', gave the following error.
+    Argument of type '(posts: Array<any>) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        Type 'Object' is not assignable to type 'any[]'.
+          The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+
+19     .subscribe((posts: Array<any>)=>{
+                  ~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.02 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:25:03.192Z - Hash: 4fae5dc00070bc75 - Time: 156ms
+
+Error: src/app/app.component.ts:19:16 - error TS2769: No overload matches this call.
+  Overload 1 of 3, '(observer?: Partial<Observer<Object>> | undefined): Subscription', gave the following error.
+    Type '(posts: any[]) => void' has no properties in common with type 'Partial<Observer<Object>>'.
+  Overload 2 of 3, '(next: (value: Object) => void): Subscription', gave the following error.
+    Argument of type '(posts: Array<any>) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+          Type 'Object' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+  Overload 3 of 3, '(next?: ((value: Object) => void) | null | undefined, error?: ((error: any) => void) | null | undefined, complete?: (() => void) | null | undefined): Subscription', gave the following error.
+    Argument of type '(posts: Array<any>) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        Type 'Object' is not assignable to type 'any[]'.
+          The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+
+19     .subscribe((posts: Array<any>)=>{
+                  ~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.02 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:25:42.832Z - Hash: eecb90a887f8cddc - Time: 158ms
+
+Error: src/app/app.component.ts:19:16 - error TS2769: No overload matches this call.
+  Overload 1 of 3, '(observer?: Partial<Observer<Object>> | undefined): Subscription', gave the following error.
+    Type '(posts: any[]) => void' has no properties in common with type 'Partial<Observer<Object>>'.
+  Overload 2 of 3, '(next: (value: Object) => void): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+          Type 'Object' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+  Overload 3 of 3, '(next?: ((value: Object) => void) | null | undefined, error?: ((error: any) => void) | null | undefined, complete?: (() => void) | null | undefined): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        Type 'Object' is not assignable to type 'any[]'.
+          The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+
+19     .subscribe((posts: any[])=>{
+                  ~~~~~~~~~~~~~~~~~
+
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.00 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:26:29.390Z - Hash: 2917f1e619314fef - Time: 237ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.54 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:26:40.873Z - Hash: 4c56983b30d798d2 - Time: 264ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.54 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:26:42.439Z - Hash: 9c0a4cf935f373b6 - Time: 144ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.57 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:27:29.782Z - Hash: c977c27a5871dbb8 - Time: 152ms
+
+Error: src/app/app.component.ts:26:22 - error TS2554: Expected 0 arguments, but got 1.
+
+26       alert.toString(response);
+                        ~~~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.54 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:27:48.544Z - Hash: 9c0a4cf935f373b6 - Time: 133ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:29:33.940Z - Hash: e64812f507e1c351 - Time: 170ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:29:34.633Z - Hash: 45add1fe563fda17 - Time: 142ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:30:53.131Z - Hash: d4492729d5773b11 - Time: 150ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:32:18.626Z - Hash: dd190b9d700db7b6 - Time: 163ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.43 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:43:21.583Z - Hash: 16322b7ba8841fca - Time: 162ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.56 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:43:50.737Z - Hash: bf863b04b7baa015 - Time: 149ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.42 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:44:01.474Z - Hash: d89c932057c6928e - Time: 141ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.42 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:44:24.778Z - Hash: 548982425885d174 - Time: 138ms
+
+Error: src/app/app.component.ts:25:16 - error TS2769: No overload matches this call.
+  Overload 1 of 3, '(observer?: Partial<Observer<Object>> | undefined): Subscription', gave the following error.
+    Type '(posts: any[]) => void' has no properties in common with type 'Partial<Observer<Object>>'.
+  Overload 2 of 3, '(next: (value: Object) => void): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+          Type 'Object' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+  Overload 3 of 3, '(next?: ((value: Object) => void) | null | undefined, error?: ((error: any) => void) | null | undefined, complete?: (() => void) | null | undefined): Subscription', gave the following error.
+    Argument of type '(posts: any[]) => void' is not assignable to parameter of type '(value: Object) => void'.
+      Types of parameters 'posts' and 'value' are incompatible.
+        Type 'Object' is not assignable to type 'any[]'.
+          The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?
+
+25     .subscribe((posts:any[])=>{
+                  ~~~~~~~~~~~~~~~~
+
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.42 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:44:36.574Z - Hash: 73ab653f9b8f4f37 - Time: 168ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.54 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:44:55.794Z - Hash: 9c0a4cf935f373b6 - Time: 118ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.54 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:47:34.607Z - Hash: d224b2362ffbff8a - Time: 162ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.56 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:48:04.236Z - Hash: 42d7aa936cae2953 - Time: 140ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.56 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:48:18.879Z - Hash: 6e3c79b4b6456aae - Time: 135ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.03 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:48:37.895Z - Hash: 3bd4fab73e365186 - Time: 265ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.88 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:51:07.315Z - Hash: dfdf6e38c02b3100 - Time: 202ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.88 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:51:16.831Z - Hash: 939221b436817133 - Time: 162ms
+
+Error: src/app/app.component.ts:28:19 - error TS2552: Cannot find name 'response'. Did you mean 'Response'?
+
+28       console.log(response);
+                     ~~~~~~~~
+
+  node_modules/typescript/lib/lib.dom.d.ts:11554:13
+    11554 declare var Response: {
+                      ~~~~~~~~
+    'Response' is declared here.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.88 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:52:12.981Z - Hash: b9c21bf041767801 - Time: 154ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.88 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:57:43.294Z - Hash: 22467c05e28a37a8 - Time: 183ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.45 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T17:59:46.558Z - Hash: d6eb5f5f86060925 - Time: 335ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.45 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:00:25.398Z - Hash: b90ac84fc8a4a3ee - Time: 158ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-21T18:00:25.723Z - Hash: b90ac84fc8a4a3ee - Time: 150ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-21T18:00:26.775Z - Hash: b90ac84fc8a4a3ee - Time: 129ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.45 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:00:31.998Z - Hash: 8ce8baec97f135e5 - Time: 139ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.43 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:00:49.365Z - Hash: 8d4ee45680562128 - Time: 212ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:01:21.972Z - Hash: 76f989c5a148c845 - Time: 194ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.59 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:01:59.493Z - Hash: 9afebb284437f1c9 - Time: 162ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.59 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:02:00.035Z - Hash: 25f64ef53d7e8446 - Time: 159ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.60 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:04:40.286Z - Hash: e47195b359ad9402 - Time: 173ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.60 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:05:10.214Z - Hash: f260baedebee0700 - Time: 194ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.59 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:05:25.471Z - Hash: 94cf1548fb1e1375 - Time: 149ms
+
+Error: src/app/app.component.html:8:16 - error TS2339: Property 'title' does not exist on type 'any[]'.
+
+8   <p> {{ posts.title }} </p>
+                 ~~~~~
+
+  src/app/app.component.ts:7:16
+    7   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.66 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:05:58.288Z - Hash: f69b0bb7262293f3 - Time: 233ms
+
+Error: src/app/app.component.html:8:16 - error TS2339: Property 'title' does not exist on type 'any[]'.
+
+8   <p> {{ posts.title }} </p>
+                 ~~~~~
+
+  src/app/app.component.ts:7:16
+    7   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.65 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:06:14.798Z - Hash: f1ecb3a9a7a50b76 - Time: 153ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.65 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:06:15.419Z - Hash: a922db46c7e9bd04 - Time: 155ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.65 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:07:04.811Z - Hash: 2ce1a0061f28a319 - Time: 206ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.67 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:08:10.852Z - Hash: eaf00dddac67a937 - Time: 165ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.68 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:08:16.390Z - Hash: ee6469060c20a73c - Time: 182ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.69 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:08:53.281Z - Hash: b4ef74fff21d597b - Time: 194ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.69 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:16:06.670Z - Hash: f76b34bc8ddcc5db - Time: 206ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.64 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:16:22.761Z - Hash: 9ae3a7444d308150 - Time: 193ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.64 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:16:23.387Z - Hash: fe247efbbd8cdb30 - Time: 152ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.64 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:24:44.999Z - Hash: 0c03bb2112be756c - Time: 194ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.64 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T18:24:51.340Z - Hash: 89fee3218db2f5cb - Time: 131ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.64 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T19:02:23.651Z - Hash: 1b51d8df8a2f0ea0 - Time: 208ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.64 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T19:02:38.571Z - Hash: a4d888652ebfd534 - Time: 157ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.65 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-21T19:07:01.246Z - Hash: 2961505e03ff5614 - Time: 175ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.03 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:06:41.793Z - Hash: 5158bb2fa178557a - Time: 294ms
+
+Error: src/app/app.component.ts:40:5 - error TS2663: Cannot find name 'loadPosts'. Did you mean the instance member 'this.loadPosts'?
+
+40     loadPosts(){
+       ~~~~~~~~~
+
+
+Error: src/app/app.component.ts:40:16 - error TS1005: ';' expected.
+
+40     loadPosts(){
+                  ~
+
+
+Error: src/app/app.component.ts:49:1 - error TS1005: '}' expected.
+
+49 
+   
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.66 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:06:49.571Z - Hash: b823c8054b6a48f0 - Time: 169ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.65 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:06:53.144Z - Hash: f9f5c0b453ad9e72 - Time: 152ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.03 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:07:18.310Z - Hash: 498dd29a7dae4d4e - Time: 200ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.65 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:15:30.829Z - Hash: 65132e30d18a088e - Time: 170ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.03 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:18:57.190Z - Hash: 82915d4d2bd981bf - Time: 217ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.32 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:45:00.390Z - Hash: 435a737f5c6adf65 - Time: 348ms
+
+Error: src/app/app.component.html:3:32 - error TS2339: Property 'loadPosts' does not exist on type 'AppComponent'.
+
+3 <button type="button" (click)="loadPosts()" class="btn btn-primary">Get Response Body</button>
+                                 ~~~~~~~~~
+
+  src/app/app.component.ts:8:16
+    8   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.32 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:46:19.466Z - Hash: c5d9c6f0d239e837 - Time: 183ms
+
+Error: src/app/app.component.html:3:32 - error TS2339: Property 'loadPosts' does not exist on type 'AppComponent'.
+
+3 <button type="button" (click)="loadPosts()" class="btn btn-primary">Get Response Body</button>
+                                 ~~~~~~~~~
+
+  src/app/app.component.ts:8:16
+    8   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.43 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:48:42.399Z - Hash: 61959af5cb1b5736 - Time: 231ms
+
+Error: src/app/app.component.html:3:32 - error TS2339: Property 'loadPosts' does not exist on type 'AppComponent'.
+
+3 <button type="button" (click)="loadPosts()" class="btn btn-primary">Get Response Body</button>
+                                 ~~~~~~~~~
+
+  src/app/app.component.ts:8:16
+    8   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.43 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:49:04.984Z - Hash: 2912d65dcb0aeb8e - Time: 150ms
+
+Error: src/app/app.component.html:3:32 - error TS2339: Property 'loadPosts' does not exist on type 'AppComponent'.
+
+3 <button type="button" (click)="loadPosts()" class="btn btn-primary">Get Response Body</button>
+                                 ~~~~~~~~~
+
+  src/app/app.component.ts:8:16
+    8   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.43 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:49:21.254Z - Hash: 6a7b0b39331b5a00 - Time: 124ms
+
+Error: src/app/app.component.html:3:32 - error TS2339: Property 'loadPosts' does not exist on type 'AppComponent'.
+
+3 <button type="button" (click)="loadPosts()" class="btn btn-primary">Get Response Body</button>
+                                 ~~~~~~~~~
+
+  src/app/app.component.ts:8:16
+    8   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  8.97 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:49:29.348Z - Hash: 65872a704c4c5981 - Time: 245ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.00 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:50:37.448Z - Hash: d17d1d56a13dcf38 - Time: 212ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-22T11:54:36.198Z - Hash: d17d1d56a13dcf38 - Time: 163ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.00 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:55:50.705Z - Hash: b7ca67551a280b68 - Time: 191ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.01 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T11:56:40.268Z - Hash: d1a07ab23be74bc5 - Time: 164ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.10 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:00:44.712Z - Hash: 2c5831983430e4b7 - Time: 177ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.33 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:09:42.340Z - Hash: caf35d6a89bc0444 - Time: 154ms
+
+Error: src/app/app-service.service.ts:18:23 - error TS2339: Property 'fields' does not exist on type 'never'.
+
+18             url: item.fields,
+                         ~~~~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.33 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:10:40.403Z - Hash: c37081f80cba2678 - Time: 175ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.33 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:10:52.237Z - Hash: 2ed3894762592ea9 - Time: 152ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.62 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:16:17.350Z - Hash: ebe25d30e60e0040 - Time: 170ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.62 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:16:25.208Z - Hash: cce477ef26b80132 - Time: 141ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.72 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:21:05.010Z - Hash: eab40db78adb49a0 - Time: 217ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.72 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:21:07.325Z - Hash: be851c177aaca042 - Time: 148ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.72 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:21:45.578Z - Hash: 063708c2f296ccd5 - Time: 156ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.71 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:24:49.531Z - Hash: 0911039ff4763135 - Time: 170ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.74 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:27:47.467Z - Hash: c4588db40f3eb6a2 - Time: 183ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.82 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:29:56.502Z - Hash: a2883121a0c7f584 - Time: 173ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.82 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:30:01.088Z - Hash: c77c738a447e94a5 - Time: 148ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.77 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:30:11.828Z - Hash: 78115b7471ef33ab - Time: 130ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.64 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:30:16.024Z - Hash: 0a55715b11b17057 - Time: 149ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.64 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:30:19.871Z - Hash: 88448d5c577a5eb0 - Time: 123ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-22T12:30:40.143Z - Hash: 88448d5c577a5eb0 - Time: 147ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.64 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:31:57.173Z - Hash: abe0ecf9cc949230 - Time: 193ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.71 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:33:04.005Z - Hash: 5d8935e25f49dfab - Time: 177ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 11.25 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:34:59.189Z - Hash: 273c520606fb1b5d - Time: 360ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 12.05 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:36:06.397Z - Hash: d064e099e9f09205 - Time: 198ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 12.05 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:36:07.606Z - Hash: 504221ccae5db042 - Time: 163ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-22T12:36:08.060Z - Hash: 504221ccae5db042 - Time: 134ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 12.05 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:36:32.483Z - Hash: c18a196325db3340 - Time: 198ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 12.05 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2022-11-22T12:36:43.318Z - Hash: f1b042220b7392da - Time: 132ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-22T12:36:43.616Z - Hash: f1b042220b7392da - Time: 150ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-22T12:36:43.914Z - Hash: f1b042220b7392da - Time: 243ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-22T12:36:44.076Z - Hash: f1b042220b7392da - Time: 136ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-11-22T12:37:28.768Z - Hash: f1b042220b7392da - Time: 167ms
+
+✔ Compiled successfully.
