@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        // read user input and assign to the 'num' variable
+        // read user input and assign to the 'rows' variable
         int rows = input.nextInt();
         createPyramid(rows);
         }
