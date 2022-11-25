@@ -1,4 +1,3 @@
-package com.example.album.model;
 import java.util.Scanner;
 
 public class Main {
